@@ -61,7 +61,7 @@ This repository contains code and data for PET image attenuation correction usin
     ├── Presentation.ppt # Presentation of the project 
     └── README.md # This file  </pre>
 
-##Requirements
+## Requirements
 
     Python 3.8+
     PyTorch 1.12+
@@ -70,7 +70,7 @@ This repository contains code and data for PET image attenuation correction usin
     Uproot, numpy, scikit-image, matplotlib, albumentations
     Ultralytics YOLOv8 (for object detection)
 
-##Installation
+## Installation
 
     1.Clone this repository:
 
@@ -81,12 +81,12 @@ cd PET-Attenuation-Correction-with-GANs
 
     3.Install vGATE (Virtual Box version of GATE) for data simulations.
 
-##Data Preparation
+## Data Preparation
 
     Use GATE to simulate PET phantoms and generate paired NAC/AC images: Run the two .sh files in the GATE_sims folder
     Reconstruct images using reconstruction python files in the recon folder
 
-##Model Training and testing
+## Model Training and testing
 Pix2Pix
 
     python vanilla_pix2pix/training.py \
@@ -100,17 +100,17 @@ Downstream detection with YOLOv8:
     find_parameters.py, \
     YOLOv8_detection.ipynb \
 
-##Results
+## Results
 
     Quantitative Metrics: WGAN-GP outperforms Pix2Pix by +1.6 dB PSNR and has smoother training with much less spikes in the loss curves
     Detection: YOLOv8 mAP@50 improved from 0.932 (NAC) to 0.991 (generated).
 
 See the Report.pdf for images, metrics, and plots.
-##License
+## License
 
 This project is licensed under the MIT License. See LICENSE for details.
 
-##Contact
+## Contact
 For questions or contributions, please open an issue or contact:
 
     Alexandros Ntagiantas (alexisnt13@gmail.com) - Iraklis Spyrou (iraklis.spyrou@gmail.com)
