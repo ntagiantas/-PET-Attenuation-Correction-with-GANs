@@ -27,38 +27,7 @@ Attenuation correction is essential in PET imaging because photon loss inside th
 
 Repository Structure
 
-PET-Attenuation-Correction-with-GANs/
-├── vanilla_pix2pix/       # Pix2Pix model code
-│   ├── generator.py
-│   ├── discriminator.py
-│   ├── training.py
-│   └── utils.py
-│   └── config.py
-│   └── dataset.py
-├── wgan_gp/               # WGAN-GP model code
-│   ├── generator.py
-│   ├── critic.py
-│   ├── training.py
-│   └── utils.py
-│   └── config.py
-│   └── dataset.py
-├── YOLOv8n/             
-│   └── YOLOv8_detection.ipynb   # Fine-tune and results of soyrce detection with YOLOv8n
-│   └── find_parameters.py   #Extract YOLO parameters for fine tuning
-├── GATE_sims/              #Contains macro files for GATE simulations and .shell files for automation
-│   ├── PET_AC_single.mac
-│   ├── PET_AC_double.mac
-│   └── PET_NAC_single.mac
-│   └── PET_NAC_double.mac
-│   └── run_all_single.sh
-│   └── run_all_double.sh
-├── recon/             #Contains reconstruction code files for single and double sources
-│   └── iter_recon_single.py
-│   └── iter_recon_double.py
-└── split_data.py              # Code for splitting data to train/val/test 
-└── Report.pdf              # Report of the project
-└── Presentation.ppt              # Presentation of the project
-└── README.md              # This file
+<pre> ```text PET-Attenuation-Correction-with-GANs/ ├── vanilla_pix2pix/ # Pix2Pix model code │ ├── generator.py │ ├── discriminator.py │ ├── training.py │ ├── utils.py │ ├── config.py │ └── dataset.py ├── wgan_gp/ # WGAN-GP model code │ ├── generator.py │ ├── critic.py │ ├── training.py │ ├── utils.py │ ├── config.py │ └── dataset.py ├── YOLOv8/ │ ├── YOLOv8_detection.ipynb # Fine-tune and results of source detection with YOLOv8 │ └── find_parameters.py # Extract YOLO parameters for fine tuning ├── GATE_sims/ # Contains macro files for GATE simulations and .shell files for automation │ ├── PET_AC_single.mac │ ├── PET_AC_double.mac │ ├── PET_NAC_single.mac │ ├── PET_NAC_double.mac │ ├── run_all_single.sh │ └── run_all_double.sh ├── recon/ # Contains reconstruction code files for single and double sources │ ├── iter_recon_single.py │ └── iter_recon_double.py ├── split_data.py # Code for splitting data to train/val/test ├── Report.pdf # Report of the project ├── Presentation.ppt # Presentation of the project └── README.md # This file ``` </pre>
 
 Requirements
 
