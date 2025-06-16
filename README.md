@@ -58,9 +58,10 @@ Attenuation correction is essential in PET imaging because photon loss inside th
 └── split_data.py              # Code for splitting data to train/val/test 
 └── Report.pdf              # Report of the project
 └── Presentation.ppt              # Presentation of the project
-└── README.md              # This file <pre>
+└── README.md              # This file
+    <pre>
 
- ## Requirements
+## Requirements
 
     Python 3.8+
     PyTorch 1.12+
