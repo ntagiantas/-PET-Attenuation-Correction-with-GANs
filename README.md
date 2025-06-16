@@ -27,7 +27,7 @@ Attenuation correction is essential in PET imaging because photon loss inside th
 
 Repository Structure
 
-<pre> ```text PET-Attenuation-Correction-with-GANs/ 
+<pre>  PET-Attenuation-Correction-with-GANs/ 
     ├── vanilla_pix2pix/ # Pix2Pix model code 
     │ ├── generator.py 
     │ ├── discriminator.py 
@@ -58,7 +58,7 @@ Repository Structure
     ├── split_data.py # Code for splitting data to train/val/test 
     ├── Report.pdf # Report of the project 
     ├── Presentation.ppt # Presentation of the project 
-    └── README.md # This file ``` </pre>
+    └── README.md # This file  </pre>
 
 Requirements
 
