@@ -71,14 +71,14 @@ Requirements
 
 Installation
 
-    Clone this repository:
+    1.Clone this repository:
 
 git clone [https://github.com/iraklisspyrou/PET-Attenuation-Correction-with-GANs.git](https://github.com/iraklisspyrou/PET-Attenuation-Correction-with-GANs.git)
 cd PET-Attenuation-Correction-with-GANs
 
-    Install Python packages from the above mentioned requirements.
+    2.Install Python packages from the above mentioned requirements.
 
-    Install vGATE (Virtual Box version of GATE) for data simulations.
+    3.Install vGATE (Virtual Box version of GATE) for data simulations.
 
 Data Preparation
 
@@ -88,16 +88,16 @@ Data Preparation
 Model Training and testing
 Pix2Pix
 
-python vanilla_pix2pix/training.py \
+    python vanilla_pix2pix/training.py \
 
 WGAN-GP
 
-python wgan_gp/training.py \
+    python wgan_gp/training.py \
 
 Downstream detection with YOLOv8:
 
-find_parameters.py, \
-YOLOv8_detection.ipynb \
+    find_parameters.py, \
+    YOLOv8_detection.ipynb \
 
 Results
 
