@@ -60,7 +60,7 @@ Attenuation correction is essential in PET imaging because photon loss inside th
 └── Presentation.ppt              # Presentation of the project
 └── README.md              # This file <pre>
 
- #Requirements
+ ## Requirements
 
     Python 3.8+
     PyTorch 1.12+
@@ -70,8 +70,8 @@ Attenuation correction is essential in PET imaging because photon loss inside th
     Ultralytics YOLOv8 (for object detection)
 
 ## Installation
-
-    Clone this repository:
+    
+Clone this repository:
 
 git clone [https://github.com/iraklisspyrou/PET-Attenuation-Correction-with-GANs.git](https://github.com/iraklisspyrou/PET-Attenuation-Correction-with-GANs.git)
 cd PET-Attenuation-Correction-with-GANs
