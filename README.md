@@ -60,7 +60,7 @@ Attenuation correction is essential in PET imaging because photon loss inside th
 └── Presentation.ppt              # Presentation of the project
 └── README.md              # This file <pre>
 
-## Requirements
+ #Requirements
 
     Python 3.8+
     PyTorch 1.12+
