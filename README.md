@@ -107,9 +107,10 @@ Results
 See the Report.pdf for images, metrics, and plots.
 License
 
+License
 This project is licensed under the MIT License. See LICENSE for details.
-Contact
 
+Contact
 For questions or contributions, please open an issue or contact:
 
     Alexandros Ntagiantas (alexisnt13@gmail.com) - Iraklis Spyrou (iraklis.spyrou@gmail.com)
